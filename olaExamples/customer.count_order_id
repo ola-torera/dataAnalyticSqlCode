@@ -1,0 +1,4 @@
+SELECT customer_id,  count(order_id)
+FROM ola.ordersfromniit
+group by customer_id
+order by count(order_id) asc
